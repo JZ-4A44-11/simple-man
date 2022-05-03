@@ -3,6 +3,8 @@
     "baseUrl": ".",
     "module": "CommonJS",
     "target": "ESNext",
+    "declaration": true,
+    "removeComments": true,
     "strict": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
