@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "module": "CommonJS",
     "target": "ESNext",
     "strict": true,
@@ -10,7 +11,9 @@
     "jsx": "react-jsx",
     "resolveJsonModule": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "paths": {}
+    "paths": {
+      "@core/*": ["packages/core/src/*"]
+    }
   },
   "exclude": ["**/dist", "**/build", "**/node_modules"]
 }
