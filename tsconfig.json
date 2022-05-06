@@ -14,7 +14,8 @@
     "resolveJsonModule": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "paths": {
-      "@core/*": ["packages/core/src/*"]
+      "@core/*": ["packages/core/src/*"],
+      "@simple-man/database": ["packages/database/dist/client.js"]
     }
   },
   "exclude": ["**/dist", "**/build", "**/node_modules"]

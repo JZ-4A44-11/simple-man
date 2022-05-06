@@ -1,0 +1,33 @@
+{
+  "name": "@simple-man/database",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Database packages module",
+  "license": "LGPL-3.0-or-later",
+  "author": "Joseph Estevez <joseph.estevez@protonmail.com>",
+  "main": "build/client.js",
+  "type": "commonjs",
+  "typesVersions": {
+    "*": {
+      "client": [
+        "./dist/client.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    "./client": "./dist/client.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.13.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "prisma": "^3.13.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
